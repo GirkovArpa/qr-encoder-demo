@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>QR Encode Demo</title>
+    <link href="main.css" rel="stylesheet">
+    <script src="main.tis" type="text/tiscript"></script>
+  </head>
+
+  <body>
+    <h1>QR Encode Demo</h1>
+    <div #credits>
+      <span>This application uses <a href="https://sciter.com">Sciter</a> Engine,</span>
+      <span>© Terra Informatica Software, Inc.</span>
+    </div>
+    <form>
+      <input #input novalue=input />
+      <span>
+        <button #encode>encode</button>
+      </span>
+      <input |text #output value="" readonly novalue=output />
+      <div .output></div>
+    </form>
+  </body>
+
+</html>
